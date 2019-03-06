@@ -26,7 +26,15 @@ namespace WindowsFormsApp1
                 case "Обьединение":
                     result = Objedinenie(textBox1.Text, textBox2.Text);
                     break;
+
+
+                case "Пересечение":
+                    result = Peresechenie(textBox1.Text, textBox2.Text);
+                    break;
+
             }
+        
+
 
             string Objedinenie(string first, string second)
             {
@@ -81,7 +89,30 @@ namespace WindowsFormsApp1
                 }
                 return result;
             }
-           
+
+            string Peresechenie(string first, string second)
+            {
+                string result = "";
+                for (int i = 0; i < first.Length; i++)
+                {
+                    bool nalichie = false;
+                    for (int j = 0; j < second.Length; j++)
+                    {
+                        if (first[i] == second[j])
+                        {
+                            nalichie = true;
+                        }
+                    }
+                    if (nalichie)
+                    {
+                        textBox3.Text = result += first[i] + " ";
+                    }
+
+                }
+                return result;
+
+            }
+
         }
 
     }

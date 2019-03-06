@@ -32,6 +32,9 @@ namespace WindowsFormsApp1
                     result = Peresechenie(textBox1.Text, textBox2.Text);
                     break;
 
+                case "Разность":
+                    result = Raznost(textBox1.Text, textBox2.Text);
+                    break;
             }
         
 
@@ -111,6 +114,27 @@ namespace WindowsFormsApp1
                 }
                 return result;
 
+            }
+            string Raznost(string first, string second)
+            {
+                string result = "";
+                for (int i = 0; i < first.Length; i++)
+                {
+                    bool nalichie = false;
+                    for (int j = 0; j < second.Length; j++)
+                    {
+                        if (first[i] == second[j])
+                        {
+                            nalichie = true;
+                        }
+                    }
+                    if (!nalichie)
+                    {
+                        textBox3.Text = result += first[i] + " ";
+                    }
+
+                }
+                return result;
             }
 
         }

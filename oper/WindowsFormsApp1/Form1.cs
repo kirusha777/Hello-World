@@ -46,7 +46,6 @@ namespace WindowsFormsApp1
             string Objedinenie(string first, string second)
             {
                 string[] povtor = new string[first.Length + second.Length];
-                MessageBox.Show("" + Convert.ToInt32(povtor));
                 string result = "";
                 for (int i = 0; i < first.Length; i++)
                 {

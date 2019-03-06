@@ -28,3 +28,13 @@ I:\2 семестр\Дискретная математика\Лаба 1\Windows
 I:\2 семестр\Дискретная математика\Лаба 1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 I:\2 семестр\Дискретная математика\Лаба 1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 I:\2 семестр\Дискретная математика\Лаба 1\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Студент\Desktop\oper\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

@@ -35,21 +35,25 @@ namespace WindowsFormsApp1
                 case "Разность":
                     result = Raznost(textBox1.Text, textBox2.Text);
                     break;
+
+                case "Симметричная разность":
+                    result = Simetrich(textBox1.Text, textBox2.Text);
+                    break;
             }
-        
+
 
 
             string Objedinenie(string first, string second)
             {
                 string[] povtor = new string[first.Length + second.Length];
-                MessageBox.Show(""+Convert.ToInt32(povtor));
+                MessageBox.Show("" + Convert.ToInt32(povtor));
                 string result = "";
                 for (int i = 0; i < first.Length; i++)
                 {
                     bool hot1 = false;
                     for (int j = 0; j < povtor.Length; j++)
                     {
-                        if (Convert.ToString(first[i]) ==povtor[j])
+                        if (Convert.ToString(first[i]) == povtor[j])
                         {
                             hot1 = true;
                         }
@@ -136,8 +140,14 @@ namespace WindowsFormsApp1
                 }
                 return result;
             }
+            string Simetrich(string first, string second)
+            {
+                string result = "";
+                result += Raznost(first, second);
+                result += Raznost(second, first);
+                return result;
 
+            }
         }
-
     }
 }
